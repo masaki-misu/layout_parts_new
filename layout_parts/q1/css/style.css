@@ -19,9 +19,7 @@
   width: 270px;
   float: left;
   background-color: #3274a2;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin: 20px 0 20px 20px;
 }
 
 .text-box {

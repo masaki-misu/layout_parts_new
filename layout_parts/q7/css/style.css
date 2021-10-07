@@ -25,14 +25,54 @@
 
 .table_text {
   display: table-cell;
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.text:nth-child(1) {
+}
+
+.text {
+}
+
+.inline_box {
+  font-size: 0;
+}
+
+.inline {
+  display: inline-block;
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.inline:first-child {
+  margin-left: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex {
   box-sizing: border-box;
   width: 225px;
 }
 
-/* .text:nth-child(1) {
-  margin-right: 50px;
-} */
 
-.text {
+
+.fixed_box {
+  display: inline-block;
+  width: 300px;
+}
+
+.variable_box {
+  display: inline-block;
+  /* width: 100%; */
 }
 /* 回答はここに書いてね */

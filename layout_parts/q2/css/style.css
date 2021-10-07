@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-/* .clearfix:after {
+.clearfix:after {
   display: block;
   content: "";
   clear: both;
-} */
+}
 
 .contants {
   box-sizing: border-box;
@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-.image1 {
+.image_baloon {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
@@ -27,7 +27,7 @@
   word-break: break-all;
 }
 
-.image2 {
+.image_light {
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;

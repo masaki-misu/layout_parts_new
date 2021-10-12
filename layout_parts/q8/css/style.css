@@ -2,4 +2,74 @@
 
 /* 回答はここに書いてね */
 
+.image_flame {
+  width: 500px;
+  height: 333px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image_car {
+  transition-property: transform;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.image_flame:hover .image_car {
+  transform: scale(1.5);
+
+}
+
+.text_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 8));
+  transition-property: transform;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  word-break: break-all;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.image_flame:hover .text_box {
+  transform: translateY(-100%);
+}
+
+.loading {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #ecf1f2;
+  border-top-color: #00bcd4;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: none;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* 回答はここに書いてね */
+

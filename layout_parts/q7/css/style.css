@@ -18,22 +18,20 @@
   margin-right: 50px;
 }
 
+
 .table_box {
   display: table;
-  /* table-layout: fixed; */
 }
 
 .table_text {
   display: table-cell;
   width: 225px;
-  font-size: 16px;
+  padding-left:50px;
   vertical-align: middle;
 }
 
-.text:nth-child(1) {
-}
-
-.text {
+.table_text:first-child {
+  padding-left: 0;
 }
 
 .inline_box {
@@ -64,15 +62,27 @@
   width: 225px;
 }
 
-
+.inline_text_box {
+  font-size: 0;
+}
 
 .fixed_box {
   display: inline-block;
   width: 300px;
+  vertical-align: top;
 }
 
 .variable_box {
   display: inline-block;
-  /* width: 100%; */
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
 }
+
+.inline-text {
+  font-size: 16px;
+}
+
 /* 回答はここに書いてね */
